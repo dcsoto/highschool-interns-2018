@@ -173,6 +173,6 @@ We will download
 Great! Today we were able to access the cluster, create folders, and download the data that we need to analyze the genetic information of these individuals.
 
 4. Visit to our computer cluster
-++++++++++++++++++++++++++++++++
+--------------------------------
 
-**Activity 8:** Register everything that you learned about computer clusters in your Hackmd document using Markdown language.
+**Activity 8:** After visiting the computer cluster, register everything that you learned about computer clusters in your Hackmd document using Markdown language.
