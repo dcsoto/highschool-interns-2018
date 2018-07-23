@@ -30,6 +30,7 @@ To do this, we are going to learn a language called “Markdown”. This languag
 **Activity 1:** To start, let's complete this online tutorial: `Markdown Tutorial`_
 
 .. _`Markdown Tutorial`: https://www.markdowntutorial.com/
+
 **Activity 2:** Now that you know how to write using Markdown, create your own lab notebook using Hackmd_
 
 .. _Hackmd: https://hackmd.io/
@@ -64,9 +65,9 @@ To control Linux terminal in supercomputers we need to work in a "terminal". Ter
 MacOS already has a terminal installed, and in Windows we can install MobaXterm:
 
 - Mac: opening Terminal app
-- Windows: downloading MobaXterm_
+- Windows: downloading `MobaXterm`_
 
-.. _MobaXterm:: http://mobaxterm.mobatek.net/download-home-edition.html
+.. _`MobaXterm`: http://mobaxterm.mobatek.net/download-home-edition.html
 
 **Activity 4:**  Set up your terminal
 
@@ -154,15 +155,9 @@ Let's go to the following addresses:
 2. URL-2_
 
 
-.. _URL-1
+.. _URL-1: ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/NIST_Illumina_2x250bps/reads/
 
-   ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/NIST_Illumina_2x250bps/reads/
-
-.. _URL-2
-
-   ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/NIST_Illumina_2x250bps/reads/
-
-We will download
+.. _URL-2: ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/NIST_Illumina_2x250bps/reads/
 
 **Activity 8:** Download files containing genetic information of one of the individuals. To download files in Linux systems, we use the command ``wget``. Right click over the first file, the use "copy link address". Then use:
 
