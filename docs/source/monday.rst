@@ -154,12 +154,11 @@ Let's go to the following addresses:
 1. URL-1_
 2. URL-2_
 
-
 .. _URL-1: ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/NIST_Illumina_2x250bps/reads/
 
 .. _URL-2: ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/NIST_Illumina_2x250bps/reads/
 
-**Activity 8:** Download files containing genetic information of one of the individuals. To download files in Linux systems, we use the command ``wget``. Right click over the first file, the use "copy link address". Then use:
+**Activity 8:** Download files containing genetic information of one of the individuals. To download files in Linux systems, we use the command ``wget``. Right click over the first "fastq" file, and press "copy link address". Then use:
 
 .. code-block:: bash
 
