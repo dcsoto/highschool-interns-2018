@@ -1,0 +1,14 @@
+.. Dennis Lab Internship 2018
+
+Dennis Lab Internship's documentation!
+======================================
+
+Hi! During this week we will learn about common bioinformatics analysis that we do in the Dennis Lab. Go through the Table of Contents to find today's activities.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   monday
+   wednesday
+   friday

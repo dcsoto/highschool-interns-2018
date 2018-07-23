@@ -1,0 +1,8 @@
+.. This  is a title
+
+Monday Activities
+=================
+
+Introduction
+
+Computers are getting more and more important every year in most fields. Biology and genetics is not the exception. Nowadays, almost every experiment involves some kind of computational analysis. You have already interacted with some online tools, but i
