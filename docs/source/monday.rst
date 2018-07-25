@@ -5,11 +5,11 @@ Monday Activities
 
 Today's schedule:
 
-- 9:00 - 10:30 Markdown
+- 10:00 - 11:00 Markdown
 
-- 10:30 - 10:45 Break
+- 11:00 - 11:15 Break
 
-- 10:45 - 12:00 Linux
+- 11:15 - 12:00 Linux
 
 - 12:00 - 13:00 Lunch break
 
