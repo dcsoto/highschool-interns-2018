@@ -57,3 +57,8 @@ samtools view -S -b -o minion_ch17.bam minion_ch17.sam
 samtools sort minion_ch17.bam > minion_ch17.sorted.bam
 samtools index minion_ch17.sorted.bam
 ```
+
+**Activity 6:** Explore mapping results
+```
+samtools tview -p chr15:30592951 minion_ch17.sorted.bam /share/dennislab/databases/assemblies/GRCh38/hg38.noalt.fa
+```
