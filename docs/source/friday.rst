@@ -29,9 +29,10 @@ Excellent! Now we have the data that you sequenced last week! To analyze its qua
 Let's check the quality of the sequences.
 
 **Activity 3:** Use the following commands
-```
-NanoPlot --fastq minion_ch17.fastq -o qc_plots
-```
+
+.. code-block:: bash
+
+   NanoPlot --fastq minion_ch17.fastq -o qc_plots
 
 Go to the qc_plot folder (hint: you can use `cd`) and check the files inside (hint: you can use `ls`). What do you see?
 
@@ -43,22 +44,25 @@ A copy of the files can be downloaded from  the following address: https://osf.i
 Go inside the cluster again and then move to your folder.
 
 **Activity 4:** Run the following command:
-```
-minimap2 -ax map-ont -L /share/dennislab/databases/assemblies/GRCh38/hg38.noalt.mmi minion_ch17.fastq > minion_ch17.sam
-```
+
+.. code-block:: bash
+
+   minimap2 -ax map-ont -L /share/dennislab/databases/assemblies/GRCh38/hg38.noalt.mmi minion_ch17.fastq > minion_ch17.sam
 
 We will have to wait a little bit. The software is performing a mapping procedure. Let's talk about mapping meanwhile.
 
-After the mapping, we need to perform some arrangement of the obtained files. There is a very nice software to do this. The name of the software is `samtools`.
+After the mapping process, we need to arrange the obtained files. There is a very nice software to do this. The name of the software is `samtools`.
 
 **Activity 5:** Run the following commands one line at a time.
-```
-samtools view -S -b -o minion_ch17.bam minion_ch17.sam
-samtools sort minion_ch17.bam > minion_ch17.sorted.bam
-samtools index minion_ch17.sorted.bam
-```
+
+.. code-block:: bash
+
+   samtools view -S -b -o minion_ch17.bam minion_ch17.sam
+   samtools sort minion_ch17.bam > minion_ch17.sorted.bam
+   samtools index minion_ch17.sorted.bam
 
 **Activity 6:** Explore mapping results
-```
-samtools tview -p chr15:30592951 minion_ch17.sorted.bam /share/dennislab/databases/assemblies/GRCh38/hg38.noalt.fa
-```
+
+.. code-block:: bash
+
+   samtools tview -p chr15:30592951 minion_ch17.sorted.bam /share/dennislab/databases/assemblies/GRCh38/hg38.noalt.fa
